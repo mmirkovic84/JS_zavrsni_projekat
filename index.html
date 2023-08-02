@@ -65,8 +65,9 @@
             </span>
             <h1 class="text-uppercase">Before we dive in, what is your name?</h1>
             <p class="mb-5">[First name is fine]</p>
-            <form>
-              <input type="text" id="input1" name="name" placeholder=" Name"><br>
+            <form class="form-floating">
+              <input type="text" id="input1" name="name" placeholder=" Name" aria-describedby="FullName" class="form-control"
+              ><label for="floatingInput">Enter your Name</label><br>
             </form><br>
             <button onclick="checkName();" class="btn btn-dark mb-5" type="button">Next</button>
           </div>
@@ -80,41 +81,41 @@
 
             <fieldset class="survey1">
               <div class="radioBG">
-                <input id="Radio1" name="opcije" type="radio" class="form-check-input" onclick="showText(1)" />
+                <input id="Radio1" name="opcije" type="radio" class="form-check-input" onclick="showText()" />
                 <label for="Radio1">&nbsp;&nbsp;I know what career I want, and I want to learn new skills.</label>
               </div>
 
               <div class="radioBG">
-                <input id="Radio2" name="opcije" type="radio" class="form-check-input" onclick="showText(2)" />
+                <input id="Radio2" name="opcije" type="radio" class="form-check-input" onclick="showText()" />
                 <label for="Radio2">&nbsp;&nbsp;I like my career—or, at least. I don't HATE it—but I keep wondering if
                   there's something more out there.</label>
               </div>
 
               <div class="radioBG">
-                <input id="Radio3" name="opcije" type="radio" class="form-check-input" onclick="showText(3)" />
+                <input id="Radio3" name="opcije" type="radio" class="form-check-input" onclick="showText()" />
                 <label for="Radio3">&nbsp;&nbsp;I took a break from my career, and now I'm ready to get back into the
                   workforce.</label>
               </div>
 
               <div class="radioBG">
-                <input id="Radio4" name="opcije" type="radio" class="form-check-input" onclick="showText(4)" />
+                <input id="Radio4" name="opcije" type="radio" class="form-check-input" onclick="showText()" />
                 <label for="Radio4">&nbsp;&nbsp;I want to make a career change, but I'm also super busy.</label>
               </div>
 
               <div class="radioBG">
-                <input id="Radio5" name="opcije" type="radio" class="form-check-input" onclick="showText(5)" />
+                <input id="Radio5" name="opcije" type="radio" class="form-check-input" onclick="showText()" />
                 <label for="Radio5">&nbsp;&nbsp;I'm just starting out.</label>
               </div>
 
               <div class="radioBG">
-                <input id="Radio6" name="opcije" type="radio" class="form-check-input" onclick="showText(6)" />
+                <input id="Radio6" name="opcije" type="radio" class="form-check-input"  onclick="showText()" />
                 <label for="Radio6">&nbsp;&nbsp; I'm burnt out from going into an office every day and ready to make my
                   own hours.</label>
               </div>
 
               <div class="radioBG">
                 <input id="Radio7" name="opcije" type="radio" value="others" class="form-check-input" id="showTextArea"
-                  onclick="showText(7)" />
+                  onclick="showText()" />
                 <label for="Radio7">&nbsp;&nbsp;Other. (Please enter)</label>
 
                 <input type="text" name="addTextArea" id="addTextArea" />

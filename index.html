@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="navbarToggler">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-light fw-bold" aria-current="page" href="portfolio.html">Portfolio</a>
+              <a class="nav-link text-light fw-bold" aria-current="page" href="#">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light fw-bold" href="#about">About</a>
@@ -66,8 +66,8 @@
             <h1 class="text-uppercase">Before we dive in, what is your name?</h1>
             <p class="mb-5">[First name is fine]</p>
             <form class="form-floating">
-              <input type="text" id="input1" name="name" placeholder=" Name" aria-describedby="FullName" class="form-control"
-              ><label for="floatingInput">Enter your Name</label><br>
+              <input type="text" id="input1" name="name" placeholder=" Name" aria-describedby="FullName"
+                class="form-control"><label for="floatingInput">Enter your Name</label><br>
             </form><br>
             <button onclick="checkName();" class="btn btn-dark mb-5" type="button">Next</button>
           </div>
@@ -108,14 +108,14 @@
               </div>
 
               <div class="radioBG">
-                <input id="Radio6" name="opcije" type="radio" class="form-check-input"  onclick="showText()" />
+                <input id="Radio6" name="opcije" type="radio" class="form-check-input" onclick="showText()" />
                 <label for="Radio6">&nbsp;&nbsp; I'm burnt out from going into an office every day and ready to make my
                   own hours.</label>
               </div>
 
               <div class="radioBG">
-                <input id="Radio7" name="opcije" type="radio" value="others" class="form-check-input" id="showTextArea"
-                  onclick="showText()" />
+                <input id="Radio7" name="opcije" type="radio" value="others" class="form-check-input"
+                  onclick="showText()" id="showTextArea" />
                 <label for="Radio7">&nbsp;&nbsp;Other. (Please enter)</label>
 
                 <input type="text" name="addTextArea" id="addTextArea" />
@@ -182,7 +182,7 @@
             <h1 class="text-uppercase">Picture the perfect workplace for you. What do you see?</h1>
             <fieldset class="survey3">
               <div class="radioBG">
-                <input id="RadioZ1" name="opcije" type="radio" class="form-check-input" />
+                <input id="RadioZ1" name="opcije" type="radio" class="form-check-input " />
                 <label for="RadioZ1">&nbsp;&nbsp;A bustling agency where I'm surrounded by incredible creative
                   talent.</label>
               </div>
@@ -233,8 +233,9 @@
 
             <label for="customRange2" class="form-label">1 - 5</label>
             <div id="fPrice" class="text-end"></div>
-            <input type="range" class="form-range" min="1" max="5" id="customRange2" oninput="document.getElementById('fPrice').innerHTML = this.value" >
-            
+            <input type="range" class="form-range" min="1" max="5" id="customRange2"
+              oninput="document.getElementById('fPrice').innerHTML = this.value">
+
             <br>
             <button onclick="FinalMessage();" class="btn btn-dark mb-5" type="button">Submit</button>
           </div>
@@ -245,7 +246,7 @@
             <h3>Thank you for your time!</h3>
             <p>We appreciate your opinion.</p>
             <p class="Text_final"></p>
-           <span class="Smiley_final"> </span>
+            <span class="Smiley_final"> </span>
           </div>
 
 

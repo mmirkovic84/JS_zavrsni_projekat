@@ -1,3 +1,4 @@
+// Display funkcija za prikazivanje i skrivanje DIVova
 function replace1(hide, show) {
   document.getElementById(hide).style.display = "none";
   document.getElementById(show).style.display = "block";
@@ -7,7 +8,7 @@ function replaceFirstPage() {
   document.getElementById('div2').style.display = "none";
   document.getElementById('div3').style.display = "block";
 }
-
+// provera unesenog imena
 function checkName() {
 
   var fname = document.querySelector("#input1").value;
@@ -22,7 +23,7 @@ function checkName() {
   }
 }
 
-// dodavanje text boxa ispod radio buttona
+//dodavanje text boxa ispod radio buttona
 function showText() {
   var radio7 = document.querySelector("#Radio7").checked;
   if (radio7 == true) {
@@ -42,7 +43,7 @@ function replaceFinalResults() {
 function FinalMessage() {
   var textFinal = document.querySelector(".Text_final");
   var smileyFinal = document.querySelector(".Smiley_final");
-  var rangeResult = document.getElementById("customRange2").value;
+  var rangeResult = document.querySelector("#customRange2").value;
 
   switch (rangeResult) {
     case "1":
